@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 
 <schema>
-    <table>
-		<name>USER</name>
-		<column>ID, USERNAME, PASSWORD, PASSWORD_EXPIRED, TELEPHONE_NO</column>
-		<period>10</period>
-		<restore>true</restore>
-    </table>
+  <table>
+    <name>USER</name>
+    <column>ID, USERNAME, PASSWORD, PASSWORD_EXPIRED, TELEPHONE_NO</column>
+    <period>10</period>
+    <restore>true</restore>
+  </table>
 </schema>
