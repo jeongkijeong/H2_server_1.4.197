@@ -153,7 +153,7 @@ public class H2TableUtil {
 				count = rest.getBigDecimal(1).toBigInteger();
 			}
 			
-			logger.debug("{}", count);
+			// logger.debug("{}", count);
 
 		}catch (Exception e) {
 			logger.error("", e);

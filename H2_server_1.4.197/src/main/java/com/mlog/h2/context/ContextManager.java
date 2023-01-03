@@ -30,7 +30,7 @@ public class ContextManager {
 		managerList = new ArrayList<ProcessManager>();
 
 		managerList.add(H2DatabaseManager.getInstance());
-		managerList.add(H2TableManager.getInstance());
+		managerList.add(H2TableManager.getInstance()); // 데이터백업
 	}
 
 	public void start() {
